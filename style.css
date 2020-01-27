@@ -46,6 +46,7 @@
     /* background: #452C81; */
     background: #816EB0;
     border: solid 2px #452C81;
+    color: white;
 }
 
 .burger{
@@ -62,7 +63,7 @@
 }
 
 /* For Mobile UI */
-@media screen and (max-width: 630px){
+@media screen and (max-width: 640px){
     body{
         overflow-x: hidden;
     }
