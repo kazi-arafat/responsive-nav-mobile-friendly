@@ -24,7 +24,7 @@
 
 .nav-links{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 40%;
     
 }
@@ -33,7 +33,7 @@
     text-decoration: none;
     color: #2F1764;
     font-size: 14px;
-    padding: 12px;
+    padding: 15px;
     
 
 }
@@ -43,7 +43,9 @@
 }
 
 .nav-links li a:hover{
-    background: #452C81;
+    /* background: #452C81; */
+    background: #816EB0;
+    border: solid 2px #452C81;
 }
 
 .burger{
@@ -64,35 +66,28 @@
     body{
         overflow-x: hidden;
     }
-
     .nav-links{
         position: absolute;
-        right: 0px;
+        left: 0px;
         top: 8vh;
         height: 92vh;
         background: #5d4594;
         display: none;
         flex-direction: column;
         align-items: center;
-        width: 50%;
-
+        width: 40%;
         /* transform: translateX(100%);
         transition: transform 0.5s ease-in; */
     }
     .nav-links li{
         width: 100%;
-        align-items: center;
+        text-align: center;
         display: block;
-        
-
-    
     }
     .nav-links a{
         /* padding: 5px; */
         display: block;
         align-items: center;
-        
-    
     }
 
     /* For animation */
